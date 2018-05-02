@@ -1,0 +1,41 @@
+@font-face{
+  font-family:Brush Script MT;
+  src:url(../fonts/Brush Script MT.ttf);
+}
+h1{
+  font-family:Brush Script MT;
+  color: white;
+  font-size: 66px;
+}
+header{
+  background-color: #00FFFF;
+  padding: 25px;
+  font-size:25px;
+  font-family: Century Gothic;
+  text-align: center;
+}
+
+#lista1{
+list-style-type:none; 
+margin: 0;
+padding: 2.5px;
+overflow: hidden;
+}
+li a {
+   text-align: center;
+   float: left;
+   padding: 15px 80px;
+   display: block;
+   color: white;
+   text-decoration: none;
+}
+
+li a:hover{
+   background-color: #01AAC1;
+}
+ footer{
+  clear: both;
+  background-color: #00FFFF;
+  padding: 40px;
+  text-align: center;
+}
